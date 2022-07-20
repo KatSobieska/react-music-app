@@ -1,0 +1,41 @@
+.menu {
+  color: magenta;
+  border: 1px solid black;
+  width: 250px;
+  max-height: 100%;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+li {
+  padding-top: 10px;
+  a {
+    display: block;
+    padding-bottom: 40px;
+  }
+}
+
+.logo > a {
+  color: magenta;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.icon {
+  padding-right: 10px;
+  color: rgb(195, 187, 195);
+}
+.title {
+  color: rgb(195, 187, 195);
+}
