@@ -1,11 +1,11 @@
-import { Container, Row } from "react-bootstrap";
+import BannerTop from "./BannerTop";
+import styles from "./FirstPage.module.scss";
 
 const FirstPage = () => {
   return (
-    <Container>
-      <Row>TOPBANNER</Row>
-      <Row>HOME</Row>
-    </Container>
+    <div className={styles.page}>
+      <BannerTop />
+    </div>
   );
 };
 
