@@ -1,5 +1,7 @@
+import Menu from "./components/views/Menu";
+
 function App() {
-  return <div className="App">hello world!</div>;
+  return <Menu />;
 }
 
 export default App;
