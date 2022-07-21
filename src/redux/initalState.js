@@ -80,6 +80,14 @@ const initialState = {
     { id: "rock", name: "rock" },
     { id: "electronic", name: "electronic" },
   ],
+  videos: [
+    { id: 1, videoPath: "https://www.youtube.com/watch?v=Hw278qY6Erw" },
+    { id: 2, videoPath: "https://www.youtube.com/watch?v=sNhHMvxpzUw" },
+    { id: 3, videoPath: "https://www.youtube.com/watch?v=-MWZU9zn3mU" },
+    { id: 4, videoPath: "https://www.youtube.com/watch?v=S5sUwhQ8nTM" },
+    { id: 5, videoPath: "https://www.youtube.com/watch?v=T9cjxnuvfuY" },
+    { id: 6, videoPath: "https://www.youtube.com/watch?v=LoNSOCRQW0s" },
+  ],
 };
 
 export default initialState;
