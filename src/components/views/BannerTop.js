@@ -1,4 +1,4 @@
-import Search from "../features/Search";
+import Search from "../common/Search";
 import styles from "./BannerTop.module.scss";
 
 const BannerTop = () => {
