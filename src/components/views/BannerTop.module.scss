@@ -6,6 +6,7 @@
 .photo {
   width: 100%;
   height: 100%;
-  border-radius: 45px;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
   object-fit: fill;
 }

@@ -1,3 +1,4 @@
+import NavBar from "../common/NavBar";
 import Search from "../common/Search";
 import styles from "./BannerTop.module.scss";
 
