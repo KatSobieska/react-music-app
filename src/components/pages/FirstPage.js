@@ -1,4 +1,4 @@
-import BannerTop from "./BannerTop";
+import BannerTop from "../views/BannerTop";
 import styles from "./FirstPage.module.scss";
 
 const FirstPage = () => {
