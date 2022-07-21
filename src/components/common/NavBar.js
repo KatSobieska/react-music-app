@@ -9,8 +9,8 @@ const NavBar = () => {
         <Nav.Link as={Link} to="/">
           Home
         </Nav.Link>
-        <Nav.Link as={Link} to="/categories">
-          Categories
+        <Nav.Link as={Link} to="/videos">
+          Videos
         </Nav.Link>
         <Nav.Link as={Link} to="/favourite">
           Favourite

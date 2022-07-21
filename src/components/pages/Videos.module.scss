@@ -1,0 +1,13 @@
+.body {
+  background-color: rgb(233, 234, 247);
+  height: 100%;
+}
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+.video {
+  margin: 10px;
+}
