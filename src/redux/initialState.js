@@ -74,11 +74,11 @@ const initialState = {
     },
   ],
   categories: [
-    { id: "pop", name: "pop" },
-    { id: "hip-hop", name: "hip-hop" },
-    { id: "alternative", name: "alternative" },
-    { id: "rock", name: "rock" },
-    { id: "electronic", name: "electronic" },
+    { id: "pop", name: "pop", imageName: "category1" },
+    { id: "hip-hop", name: "hip-hop", imageName: "category2" },
+    { id: "rock", name: "rock", imageName: "category3" },
+    { id: "alternative", name: "alternative", imageName: "category4" },
+    { id: "electronic", name: "electronic", imageName: "category5" },
   ],
   videos: [
     { id: 1, videoPath: "https://www.youtube.com/watch?v=Hw278qY6Erw" },
