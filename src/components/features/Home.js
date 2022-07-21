@@ -1,6 +1,5 @@
 import { getAllCategories } from "../../redux/categoriesRedux";
 import CategoryBox from "../common/CategoryBox";
-import AudioPlayer from "./AudioPlayer";
 import styles from "./Home.module.scss";
 import { useSelector } from "react-redux";
 import PropTypes from "prop-types";
