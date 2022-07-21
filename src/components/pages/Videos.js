@@ -1,44 +1,32 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import { getAllVideos } from "../../redux/videosRedux";
 import styles from "./Videos.module.scss";
+import { useSelector } from "react-redux";
+import PropTypes from "prop-types";
 
-const Categories = () => {
+const Videos = () => {
+  const videos = useSelector(getAllVideos);
+  console.log("videos", videos);
+
   return (
     <div className={styles.body}>
       <div className={styles.videos}>
-        <ReactPlayer
-          className={styles.video}
-          url="https://www.youtube.com/watch?v=Hw278qY6Erw"
-          controls={true}
-        />
-        <ReactPlayer
-          className={styles.video}
-          url="https://www.youtube.com/watch?v=sNhHMvxpzUw"
-          controls={true}
-        />
-        <ReactPlayer
-          className={styles.video}
-          url="https://www.youtube.com/watch?v=-MWZU9zn3mU"
-          controls={true}
-        />
-        <ReactPlayer
-          className={styles.video}
-          url="https://www.youtube.com/watch?v=S5sUwhQ8nTM"
-          controls={true}
-        />
-        <ReactPlayer
-          className={styles.video}
-          url="https://www.youtube.com/watch?v=T9cjxnuvfuY"
-          controls={true}
-        />
-        <ReactPlayer
-          className={styles.video}
-          url="https://www.youtube.com/watch?v=LoNSOCRQW0s"
-          controls={true}
-        />
+        {videos.map((video) => (
+          <ReactPlayer
+            className={styles.video}
+            url={video.videoPath}
+            controls={true}
+          />
+        ))}
       </div>
     </div>
   );
 };
 
-export default Categories;
+Videos.propTypes = {
+  id: PropTypes.string,
+  videoPath: PropTypes.string,
+};
+
+export default Videos;
