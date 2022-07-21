@@ -26,6 +26,16 @@ const Categories = () => {
           url="https://www.youtube.com/watch?v=S5sUwhQ8nTM"
           controls={true}
         />
+        <ReactPlayer
+          className={styles.video}
+          url="https://www.youtube.com/watch?v=T9cjxnuvfuY"
+          controls={true}
+        />
+        <ReactPlayer
+          className={styles.video}
+          url="https://www.youtube.com/watch?v=LoNSOCRQW0s"
+          controls={true}
+        />
       </div>
     </div>
   );
