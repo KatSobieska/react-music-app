@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router";
 import Home from "./components/features/Home";
 import Videos from "./components/pages/Videos";
 import Favourite from "./components/pages/Favourite";
+import "./styles/global.scss";
 
 function App() {
   return (
