@@ -1,5 +1,7 @@
+@import "../../styles/settings.scss";
+
 .page {
   width: 100%;
   display: inline-block;
-  background: linear-gradient(to bottom, #ffffff 0%, rgb(233, 234, 247) 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, $lightGray 100%);
 }

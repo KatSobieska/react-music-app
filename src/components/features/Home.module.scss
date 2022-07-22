@@ -1,10 +1,12 @@
+@import "../../styles/settings.scss";
+
 .home {
   display: flex;
   flex-wrap: wrap;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 24px;
   font-weight: 600;
-  background-color: rgb(233, 234, 247);
+  background-color: $lightGray;
 }
 .first {
   width: 72%;

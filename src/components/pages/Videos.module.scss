@@ -1,5 +1,7 @@
+@import "../../styles/settings.scss";
+
 .body {
-  background-color: rgb(233, 234, 247);
+  background-color: $lightGray;
 }
 .videos {
   display: flex;
