@@ -7,6 +7,7 @@ import Home from "./components/features/Home";
 import Videos from "./components/pages/Videos";
 import Favourite from "./components/pages/Favourite";
 import "./styles/global.scss";
+import Footer from "./components/pages/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/videos" element={<Videos />} />
           <Route path="/favourite" element={<Favourite />} />
         </Routes>
+        <Footer />
       </ContainerPage>
     </Container>
   );
