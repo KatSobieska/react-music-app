@@ -17,6 +17,8 @@ const Videos = () => {
             className={styles.video}
             url={video.videoPath}
             controls={true}
+            width="30%"
+            height="30%"
           />
         ))}
       </div>
