@@ -13,7 +13,7 @@ const CategoryBox = (props) => {
         width: "10rem",
         height: "10rem",
         fontSize: "10px",
-        padding: "20px 20px 20px 0",
+        padding: "5px 20px 20px 0",
       }}
     >
       <Card.Img
@@ -22,7 +22,7 @@ const CategoryBox = (props) => {
           width: "10rem",
           height: "10rem",
           borderRadius: "30px",
-          paddingBottom: "10px",
+          paddingBottom: "7px",
           objectFit: "cover",
         }}
       />
@@ -32,7 +32,7 @@ const CategoryBox = (props) => {
             fontSize: "15px",
             fontWeight: "700",
             color: "black",
-            paddingBottom: "10px",
+            paddingBottom: "5px",
           }}
         >
           {props.name}
@@ -42,7 +42,7 @@ const CategoryBox = (props) => {
             fontSize: "15px",
             fontWeight: "700",
             color: "rgb(195, 187, 195)",
-            paddingBottom: "10px",
+            paddingBottom: "5px",
           }}
         >
           2020
