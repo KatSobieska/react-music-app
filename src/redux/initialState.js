@@ -87,6 +87,9 @@ const initialState = {
     { id: 4, videoPath: "https://www.youtube.com/watch?v=S5sUwhQ8nTM" },
     { id: 5, videoPath: "https://www.youtube.com/watch?v=T9cjxnuvfuY" },
     { id: 6, videoPath: "https://www.youtube.com/watch?v=LoNSOCRQW0s" },
+    { id: 7, videoPath: "https://www.youtube.com/watch?v=DXRY1RFADps" },
+    { id: 8, videoPath: "https://www.youtube.com/watch?v=UPhZ6S9Qfnc" },
+    { id: 9, videoPath: "https://www.youtube.com/watch?v=JUYS60ZzC4s" },
   ],
 };
 
