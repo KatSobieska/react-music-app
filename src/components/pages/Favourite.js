@@ -1,5 +1,7 @@
+import styles from "./Favourite.module.scss";
+
 const Favourite = () => {
-  return <div> FAVOURITE</div>;
+  return <div className={styles.body}> FAVOURITE</div>;
 };
 
 export default Favourite;
