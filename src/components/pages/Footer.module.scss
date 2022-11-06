@@ -1,6 +1,9 @@
+@import "../../styles/settings.scss";
+
 .footer {
   display: flex;
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(195, 187, 195);
+  color: rgb(223, 168, 243);
+  background-color: $lightGray;
 }
