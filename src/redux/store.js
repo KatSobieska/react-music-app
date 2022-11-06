@@ -1,13 +1,16 @@
 import songsReducer from "./songsRedux";
 import categoriesReducer from "./categoriesRedux";
 import videosReducer from "./videosRedux";
-import { combineReducers, createStore } from "redux";
+import favoritesReducer from "./favoritesRedux";
+import { applyMiddleware, combineReducers, compose, createStore } from "redux";
 import initialState from "./initialState";
+import thunk from "redux-thunk";
 
 const reducers = {
   songs: songsReducer,
   categories: categoriesReducer,
   videos: videosReducer,
+  favorites: favoritesReducer,
 };
 
 const combinedReducers = combineReducers(reducers);
@@ -15,7 +18,7 @@ const combinedReducers = combineReducers(reducers);
 const store = createStore(
   combinedReducers,
   initialState,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  compose(applyMiddleware(thunk))
 );
 
 export default store;
