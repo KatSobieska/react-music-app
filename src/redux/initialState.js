@@ -6,7 +6,8 @@ const initialState = {
       author: "NEFFEX",
       fileName: "Enough - NEFFEX.mp3",
       category: "Rock",
-      favorite: false,
+      recommended: true,
+      songImage: "song1",
     },
     {
       id: "song-2",
@@ -14,7 +15,8 @@ const initialState = {
       author: "Yung Logos",
       fileName: "Escapism - Yung Logos.mp3",
       category: "electronic",
-      favorite: false,
+      recommended: true,
+      songImage: "song2",
     },
     {
       id: "song-3",
@@ -22,7 +24,8 @@ const initialState = {
       author: "Anno Domini Beats",
       fileName: "Illusions - Anno Domini Beats.mp3",
       category: "hip-hop",
-      favorite: false,
+      recommended: true,
+      songImage: "song3",
     },
     {
       id: "song-4",
@@ -30,7 +33,8 @@ const initialState = {
       author: "Mini Vandals",
       fileName: "In Five Straight Rows - Mini Vandals.mp3",
       category: "electronic",
-      favorite: false,
+      recommended: true,
+      songImage: "song4",
     },
     {
       id: "song-5",
@@ -38,7 +42,8 @@ const initialState = {
       author: "NEFFEX",
       fileName: "Play Dead - NEFFEX.mp3",
       category: "pop",
-      favorite: false,
+      recommended: false,
+      songImage: "song5",
     },
     {
       id: "song-6",
@@ -46,7 +51,8 @@ const initialState = {
       author: "NEFFEX",
       fileName: "Take Me Back - NEFFEX.mp3",
       category: "pop",
-      favorite: false,
+      recommended: false,
+      songImage: "song6",
     },
     {
       id: "song-7",
@@ -54,7 +60,8 @@ const initialState = {
       author: "NEFFEX",
       fileName: "Winning - NEFFEX.mp3",
       category: "hip-hop",
-      favorite: false,
+      recommended: true,
+      songImage: "song7",
     },
     {
       id: "song-8",
@@ -62,7 +69,8 @@ const initialState = {
       author: "Mini Vandals",
       fileName: "Out On My Skateboard - Mini Vandals.mp3",
       category: "rock",
-      favorite: false,
+      recommended: true,
+      songImage: "song8",
     },
     {
       id: "song-9",
@@ -70,7 +78,8 @@ const initialState = {
       author: "Freedom Trail Studio",
       fileName: "Early Oceans - Freedom Trail Studio.mp3",
       category: "alternative",
-      favorite: false,
+      recommended: false,
+      songImage: "song9",
     },
   ],
   categories: [
