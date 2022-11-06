@@ -10,19 +10,19 @@ const CategoryBox = (props) => {
   return (
     <Card
       style={{
-        width: "10rem",
-        height: "10rem",
+        width: "7rem",
+        height: "9rem",
         fontSize: "10px",
-        padding: "5px 20px 20px 0",
+        padding: "0 20px 20px 0",
       }}
     >
       <Card.Img
         src={`/images/${props.imageName}.png`}
         style={{
-          width: "10rem",
-          height: "10rem",
+          width: "9rem",
+          height: "9rem",
           borderRadius: "30px",
-          paddingBottom: "7px",
+          paddingBottom: "5px",
           objectFit: "cover",
         }}
       />
@@ -45,7 +45,7 @@ const CategoryBox = (props) => {
             paddingBottom: "5px",
           }}
         >
-          2020
+          2022
         </Card.Title>
       </Card.Body>
     </Card>
