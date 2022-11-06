@@ -10,14 +10,25 @@
 }
 .first {
   width: 72%;
+
+  .recommended {
+    padding-left: 15px;
+    font-weight: 700;
+  }
 }
 .popular {
-  height: 250px;
+  height: 230px;
+  padding-left: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.popular > * {
+  flex: 0 0 33.3333%;
 }
 .categories {
-  height: 280px;
+  height: 262px;
   p {
-    padding-left: 20px;
+    padding-left: 15px;
     font-weight: 700;
   }
 }
@@ -26,7 +37,60 @@
   justify-content: space-around;
 }
 .discover {
-  background-color: aquamarine;
   height: 560px;
   width: 28%;
+
+  p {
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .searchButton {
+    align-items: center;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    color: #ffffff;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    margin-bottom: 20px;
+  }
+}
+
+.authors {
+  display: block;
+  padding-top: 35px;
+
+  .card {
+    display: flex;
+  }
+}
+.follow {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px 12px;
+}
+
+.song {
+  display: flex;
+
+  button {
+    border: none;
+    background-color: transparent;
+  }
 }
