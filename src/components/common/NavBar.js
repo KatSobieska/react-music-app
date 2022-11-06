@@ -12,9 +12,8 @@ const NavBar = () => {
         <Nav.Link as={Link} to="/videos">
           Videos
         </Nav.Link>
-        <Nav.Link as={Link} to="/favourite">
-          Favourite
-        </Nav.Link>
+        <Nav.Link>Shows</Nav.Link>
+        <Nav.Link>About</Nav.Link>
       </Nav>
     </Navbar>
   );
