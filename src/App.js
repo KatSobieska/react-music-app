@@ -5,7 +5,6 @@ import FirstPage from "./components/pages/FirstPage";
 import { Route, Routes } from "react-router";
 import Home from "./components/features/Home";
 import Videos from "./components/pages/Videos";
-import Favourite from "./components/pages/Favourite";
 import "./styles/global.scss";
 import Footer from "./components/pages/Footer";
 
@@ -18,7 +17,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/videos" element={<Videos />} />
-          <Route path="/favourite" element={<Favourite />} />
         </Routes>
         <Footer />
       </ContainerPage>
