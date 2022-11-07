@@ -3,7 +3,8 @@
 ```
 Live demo on heroku: https://music-web--app.herokuapp.com/
 
-Upgrade of first music app. You can still listen to music, but there are new functionalities and it's written using React.
+Upgrade of first music app. 
+You can still listen to music, but there are new functionalities and it's written using React.
 ```
 
 ## Installation
